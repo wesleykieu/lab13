@@ -53,6 +53,9 @@ public class FamilyTree
                 // then that's the node we're looking for. Return it.
                 TreeNode foundNode = child.getNodeWithName(targetName);
                 if (foundNode != null)
+                {
+                	return foundNode;
+                }
             }
             
             // Not found anywhere.
